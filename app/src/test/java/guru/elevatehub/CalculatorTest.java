@@ -27,6 +27,6 @@ class CalculatorTest {
      @Test
     void multipliesTwoNumbers() {
         assertEquals(8, calculator.multiply(4, 2));
-        assertEquals(-6, calculator.multiply(-2, 3))
+        assertEquals(-6, calculator.multiply(-2, 3));
     }
 }
